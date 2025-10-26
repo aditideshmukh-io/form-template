@@ -1,0 +1,107 @@
+      *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        @font-face {
+  font-family: myFont; /* set name */
+  src: url(Norse-Bold.otf); /* url of the font */
+}
+body{
+    background-color: rgb(243, 243, 245);
+    font-family: Arial, Helvetica, sans-serif;
+}
+       input{
+        margin-bottom: 20px;
+       }
+       label{
+        font-size: 12px;
+        color: gray;
+       }
+       .container{
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+       }
+       .image{
+        /* box-sizing: border-box; */
+        width: 55vw;
+        height:100vh ;
+        background-image: url('sidepic.jpg');
+        background-size: cover;
+        background-position:center;
+        /* width: 100%; */
+        background-repeat: no-repeat;
+        
+       }
+       .main{
+        /* padding: 0px 5px 5px 0px; */
+       }
+       p{
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+       
+       }
+       .upperhalf{
+        margin: 0 0 40px 30px;
+       }
+       .bottomhalf{
+        margin: 40px 0 0 30px;
+       }
+       .hero{
+        margin-bottom: 30px;
+       }
+       .form{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        
+       }
+       .fiel-container{
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 48%;
+      
+        
+        
+       }
+       input{
+        padding: 5px;
+        max-width: 300px;
+        border: 1px solid #E5E7EB;
+                background-color: rgb(255, 251, 251);
+        border-radius: 5px;
+        
+       }
+       input:focus{
+        outline: none;
+        border: 1px solid blue;
+
+       }
+       input:invalid{
+        border: 1px solid red;
+       }
+       .form-container{
+        background-color: rgb(255, 251, 251);
+        padding: 20px 0px 20px 30px;
+        box-shadow: 0px 5px 8px 2px rgba(0,0,0,0.2);
+       }
+       #heading{
+        margin-bottom: 30px;
+       }
+       #submit-btn{
+        padding: 10px 0;
+        background-color: rgb(255, 92, 33);
+        color: white;
+        font-weight: bold;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        width: 200px;
+       }
+       span{
+        color: rgb(252, 99, 43);
+       }
+       /* .logo{
+        background-image: url(liquid.png);
+        background-color: black; */
+       /* } */

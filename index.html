@@ -1,11 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+    <div class="container">
+        <div class="image">
+            <div class="logo"></div>
+            
+<!-- <div> Icons made by <a href="https://www.flaticon.com/authors/edtim" title="edt.im"> edt.im </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div> -->
+        </div>
+        <div class="main">
+            <div class="upperhalf">
+                <p class="hero">Welcome to our new platform! Join our community to unlock exclusive features and content. You'll get access to personalized dashboards, weekly insights, and members-only tutorials.
+            </p>
+            <p>Creating an account is quick, easy, and completely free. We're excited to have you on board!</p>
+            </div>
+            
+            <div class="form-container">
+                  <h2 id="heading">Unlock exclusive features by creating your free account.</h2>
+                <form action="/backend_link" method="post" class="form">
+                  
+                    <div class="fiel-container" ><label for="fname">
+                            FISRT NAME
+                        </label>
+                        <input type="text" id="fname">
+                    </div>
+                    <div class="fiel-container">
+                        <label for="lname">LAST NAME</label>
+                        <input type="text" id="lname">
+                    </div>
+                    <div class="fiel-container">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" >
+                    </div>
+                    <div class="fiel-container">
+                        <label for="phone_no">PHONE NUMBER</label>
+                        <input type="text" id="phone_no" >
+                    </div>
+                    <div class="fiel-container">
+                        <label for="password">PASSWORD</label>
+                        <input type="password"  id="password" required>
+                    </div>
+                    <div class="fiel-container">
+                        <label for="conf_password">CONFIRM PASSWORD</label>
+                        <input type="password" id="conf_password" required>
+                    </div>
+
+                    
+                </form>
+                
+            </div>
+            <div class="bottomhalf">
+                <div class="fiel-container" id="submit" >
+                        
+                        <input type="submit" id="submit-btn" >
+                    </div>
+
+
+                <p>Already have an account? <span>Log in</span></p>
+            </div>
+            
+        </div>
+    </div>
 </body>
+
 </html>
