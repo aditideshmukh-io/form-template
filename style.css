@@ -76,6 +76,8 @@ body{
        input:focus{
         outline: none;
         border: 1px solid blue;
+     -webkit-box-shadow: 3px 2px 14px 0px rgba(0,0,0,0.2); 
+box-shadow: 3px 2px 14px 0px rgba(0,0,0,0.2);
 
        }
        input:invalid{
